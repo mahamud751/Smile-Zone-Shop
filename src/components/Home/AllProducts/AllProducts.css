@@ -1,0 +1,22 @@
+.first img{
+    height: 420px;
+}
+.img_part{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+}
+.img-part img{
+    height: 300px;
+    border: 0;
+}
+.main_img{
+    height: 900px;
+}
+.img_part2{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+}
+.img_part2 img{
+    height: 300px;
+    border: 0;
+}

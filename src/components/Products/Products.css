@@ -1,0 +1,29 @@
+/* .card-img{
+    width: 220px;
+    height: 180px;
+} */
+.btn-normal{
+    background: goldenrod;
+    border: none;
+    border-radius: 10px;
+    width: 150px;
+    line-height: 30px;
+}
+.rating{
+    color: goldenrod;
+}
+.first img{
+    height: 420px;
+}
+.img-part{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    height: 600px;
+}
+.img-part img{
+    height: 300px;
+    border: 0;
+}
+.main_img{
+    height: 600px;
+}
