@@ -10,7 +10,7 @@ import PlaceOrder from './components/PlaceOrder/PlaceOrder';
 import ReviewProducts from './components/ReviewProducts/ReviewProducts';
 import Login from './components/Login/Login';
 import AuthProvider from './Context/AuthProvider';
-
+import PrivateRoute from './components/PrivateComponent/PrivateComponent'
 import MenProduct from './components/Home/AllProducts/MenProduct/MenProduct';
 import Men from './components/SingleProduct/Men/Men';
 import Women from './components/SingleProduct/Women/Women';
@@ -72,9 +72,9 @@ function App() {
             <Route path="/electronics">
               <Electronics></Electronics>
             </Route>
-            <Route path="/review">
+            <PrivateRoute path="/review">
               <ReviewProducts></ReviewProducts>
-            </Route>
+            </PrivateRoute>
             <Route path="/placeOrder">
               <PlaceOrder></PlaceOrder>
             </Route>
